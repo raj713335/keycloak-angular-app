@@ -10,7 +10,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Keycloak Integration
 
-1. There should be a running keycloak instance (Keycloak version 22 is used for testing this implementation)
+1. There should be a running keycloak instance (Keycloak version 25.0.2 is used for testing this implementation)
 2. Create a client inside the Keycloak server as mentioned in Keycloak Client Info section
 3. Provide the config details of the created client as config properties for the keycloak client initialization function (see app.config.ts file)
 4. Start the angular app
