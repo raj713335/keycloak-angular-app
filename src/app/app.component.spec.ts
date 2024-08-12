@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'keycloak-angular-app' title`, () => {
+  it(`should have the 'keycloak-angular-example' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('keycloak-angular-app');
+    expect(app.title).toEqual('keycloak-angular-example');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, keycloak-angular-app');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, keycloak-angular-example');
   });
 });
